@@ -39,7 +39,6 @@ function runSpotify(song){
             console.log("Album Name:" +data.tracks.items[0].album.name)
             console.log("Song Name:" + data.tracks.items[0].name)
             console.log("Url:" + data.tracks.items[0].preview_url)
-        
           });
           
 
@@ -74,6 +73,7 @@ function runConcert(concert){
         console.log('Venue:' + body[0].venue.name)
         console.log('City:' + body[0].venue.city +","+ body[0].venue.region ) // Print the HTML for the Google homepage.
         console.log('Date of Event: ' +  moment(body.datetime).format("MM/DD/YYYY"));
+        
       }); 
 
 }
@@ -85,14 +85,11 @@ function runFs(file){
         console.log(words[1]);
 
         var songTitle =  (words[1]);
-        
-
+    
         runSpotify(songTitle);
 
-        
     });
-     
-     
+         
 }
 
 
