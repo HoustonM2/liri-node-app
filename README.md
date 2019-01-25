@@ -3,6 +3,11 @@
 ## Description 
 - Liri Node App is a command line node app that allows users to access information from various apis.
 
+## Prerequisites
+- OMDBapi
+- Bandsintown API
+- Spotify API
+
 ## Requirements
 - Use spotify,omdb, and bandsintown api.
 - Create a text file then run a function to read it.
