@@ -7,6 +7,13 @@
 - OMDBapi
 - Bandsintown API
 - Spotify API
+- Moment.js 
+
+## Installing 
+Run this command to install the pacakge:
+```
+npm install moment 
+```
 
 ## Requirements
 - Use spotify,omdb, and bandsintown api.
